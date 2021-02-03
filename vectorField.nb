@@ -1,0 +1,171 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6092,        161]
+NotebookOptionsPosition[      5578,        144]
+NotebookOutlinePosition[      5913,        159]
+CellTagsIndexPosition[      5870,        156]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"VectorPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"1", "/", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"x", "^", "2"}], "+", 
+          RowBox[{"y", "^", "2"}]}], ")"}], "^", 
+        RowBox[{"(", 
+         RowBox[{"3", "/", "2"}], ")"}]}]}], "*", 
+      RowBox[{"(", "x", ")"}]}], ",", 
+     RowBox[{
+      RowBox[{"1", "/", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"x", "^", "2"}], "+", 
+          RowBox[{"y", "^", "2"}]}], ")"}], "^", 
+        RowBox[{"(", 
+         RowBox[{"3", "/", "2"}], ")"}]}]}], "*", 
+      RowBox[{"(", "y", ")"}]}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "1", ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", "1", ",", "2"}], "}"}], ",", 
+   RowBox[{"Exclusions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"x", "^", "2"}], "+", 
+         RowBox[{"y", "^", "2"}]}], ")"}], "^", 
+       RowBox[{"(", 
+        RowBox[{"3", "/", "2"}], ")"}]}], "\[Equal]", "0"}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.82119004562084*^9, 3.821190049572382*^9}, {
+  3.821191330365703*^9, 3.8211914396062593`*^9}, {3.82119147601528*^9, 
+  3.821191491767681*^9}, {3.821191552013204*^9, 3.8211915605765257`*^9}, {
+  3.821191943061871*^9, 3.821191944996523*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"259f4ee7-1ab0-43f7-9a70-8633fdd4ba0d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "VectorPlot","optx",
+   "\"Unknown option \\!\\(\\*RowBox[{\\\"Exclusions\\\", \\\"\[Rule]\\\", \
+RowBox[{\\\"{\\\", RowBox[{SuperscriptBox[RowBox[{\\\"(\\\", \
+RowBox[{SuperscriptBox[\\\"x\\\", \\\"2\\\"], \\\"+\\\", SuperscriptBox[\\\"y\
+\\\", \\\"2\\\"]}], \\\")\\\"}], RowBox[{\\\"3\\\", \\\"/\\\", \\\"2\\\"}]], \
+\\\"\[Equal]\\\", \\\"0\\\"}], \\\"}\\\"}]}]\\) in \
+\\!\\(\\*RowBox[{\\\"VectorPlot\\\", \\\"[\\\", RowBox[{RowBox[{\\\"{\\\", \
+RowBox[{FractionBox[\\\"x\\\", SuperscriptBox[RowBox[{\\\"(\\\", \
+RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\
+\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"+\\\", \
+RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\")\\\"}], RowBox[{\\\"3\\\", \\\
+\" \\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}]]], \\\",\\\", \
+FractionBox[\\\"y\\\", SuperscriptBox[RowBox[{\\\"(\\\", \
+RowBox[{RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\
+\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}], \\\"+\\\", \
+RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"2\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}], \\\")\\\"}], RowBox[{\\\"3\\\", \\\
+\" \\\", RowBox[{\\\"Power\\\", \\\"[\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \
+\\\"2\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}]]]}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"x\\\", \\\",\\\", \\\"1\\\", \
+\\\",\\\", \\\"2\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\
+\"y\\\", \\\",\\\", \\\"1\\\", \\\",\\\", \\\"2\\\"}], \\\"}\\\"}], \
+\\\",\\\", RowBox[{\\\"Exclusions\\\", \\\"\[Rule]\\\", RowBox[{\\\"{\\\", \
+RowBox[{SuperscriptBox[RowBox[{\\\"(\\\", RowBox[{SuperscriptBox[\\\"x\\\", \
+\\\"2\\\"], \\\"+\\\", SuperscriptBox[\\\"y\\\", \\\"2\\\"]}], \\\")\\\"}], \
+RowBox[{\\\"3\\\", \\\"/\\\", \\\"2\\\"}]], \\\"\[Equal]\\\", \\\"0\\\"}], \\\
+\"}\\\"}]}]}], \\\"]\\\"}]\\).\"",2,6,10,16885686151648124601,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.821191946775839*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"f78bcb6a-bbce-4ae7-b02e-404bada0dad1"],
+
+Cell[BoxData[
+ RowBox[{"VectorPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     FractionBox["x", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["x", "2"], "+", 
+         SuperscriptBox["y", "2"]}], ")"}], 
+       RowBox[{"3", "/", "2"}]]], ",", 
+     FractionBox["y", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["x", "2"], "+", 
+         SuperscriptBox["y", "2"]}], ")"}], 
+       RowBox[{"3", "/", "2"}]]]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "1", ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", "1", ",", "2"}], "}"}], ",", 
+   RowBox[{"Exclusions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         SuperscriptBox["x", "2"], "+", 
+         SuperscriptBox["y", "2"]}], ")"}], 
+       RowBox[{"3", "/", "2"}]], "\[Equal]", "0"}], "}"}]}]}], 
+  "]"}]], "Output",
+ CellChangeTimes->{{3.821191420472151*^9, 3.821191440261142*^9}, {
+   3.821191485344451*^9, 3.821191492302096*^9}, 3.821191561214882*^9, 
+   3.821191946795657*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"671da01b-023c-4f37-8ffe-f4ac665a73b1"]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{556, Automatic}, {48, Automatic}},
+FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1489, 44, 55, "Input",ExpressionUUID->"259f4ee7-1ab0-43f7-9a70-8633fdd4ba0d"],
+Cell[2072, 68, 2298, 35, 112, "Message",ExpressionUUID->"f78bcb6a-bbce-4ae7-b02e-404bada0dad1"],
+Cell[4373, 105, 1189, 36, 124, "Output",ExpressionUUID->"671da01b-023c-4f37-8ffe-f4ac665a73b1"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
